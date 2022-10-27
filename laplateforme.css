@@ -1,0 +1,446 @@
+body{
+    background-color: #F8F8FC;
+}
+
+h1, h2, strong{
+    font-family: 'Roboto Slab', serif;
+}
+
+
+                                    /*header*/
+header{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 99%;
+    height: 90px;
+}
+
+header img{
+    width: 425px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+
+header ul{
+    font-family: 'Roboto Slab', serif;
+    color: #848484;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    font-size: 100%;
+    width: 70%;
+}
+
+.img-recherche{
+    width: 3%;
+    height: 4%;
+}
+
+
+
+                            /*1ere section*/
+
+.premier{
+    background-color: #336699;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    height: 840px;
+}
+
+.intro-bloc{
+    width: 460px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 50%;
+}
+
+.intro{
+    color: white;
+    font-size: 165%;
+    line-height: 30px;
+    font-family: 'Roboto', sans-serif;
+    width: 60%;
+}
+
+.intro strong{
+    font-family: 'Roboto Slab', serif;
+}
+
+.inscription{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.digital-maintenant{
+    font-family: 'Roboto Slab', serif;
+}
+
+.bouton-debut{
+    background-color: #FF2063;
+    width: 99%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 50px;
+}
+
+.inscriptions-ouvertes{
+    font-weight: bold;
+    width: 80%;
+    text-align: center;
+    line-height: 30px;
+}
+
+.asterisque{
+    font-weight: lighter;
+    font-size: 50%;
+    text-align: center;
+    line-height: 14px;
+}
+
+.etudiants{
+    width: 50%;
+}
+
+
+                                /*2eme section*/
+
+.se-former{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    color: #336699;
+}
+
+.se-former h1{
+    font-size: 40px;
+    line-height: 40px;
+    margin: 70px;
+}
+
+.se-former h2{
+    font-size: 22px;
+    line-height: 33px;
+}
+
+.formations{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.web-coding, .ia, .secu{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+    width: 27%;
+    height: 1000px;
+    font-size: 19px;
+    line-height: 27px;
+    margin-bottom: 50px;
+}
+
+.web-coding img{
+    width: 130px;
+}
+
+.ia img{
+    width: 140px;
+}
+
+.img-ia, .img-coding, .img-secu{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.exp-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: start;
+    align-self: start;
+    justify-content: start;
+    height: 75%;
+}
+
+.titre-form, .intro-form, .para-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 80%;
+}
+
+.bouton-coding, .bouton-ia, .bouton-secu{
+    background-color: #FFCA4B;
+    color: white;
+    font-weight: bold;
+    width: 85%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 50px;
+    justify-self: end;
+    margin: 40px;
+}
+
+.bouton-secu{
+    margin-top: 120px;
+}
+
+.bouton-coding{
+    margin-top: 145px;
+}
+
+
+
+                                /*3eme section*/
+
+.entreprises{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Roboto', sans-serif;
+    color: #336699;
+}
+
+.titre-transformation{
+    margin: 50px;
+}
+
+.bloc-bouton{
+    width: 91%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 75px;
+}
+
+.bloc{
+    background-color: white;
+    display: flex;
+    height: 15%;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bouton{
+    display: flex;
+    justify-content: center;
+    background-color: #FFCA4B;
+    color: white;
+    font-weight: bold;
+    width: fit-content;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 50px;
+    margin: 50px;
+}
+
+.bouton p{
+    margin: 20px;
+}
+
+.bloc img{
+    height: 150px;
+    margin:10px;
+    margin-right: 25px;
+}
+
+.bloc-para{
+    width: 70%;
+}
+
+.entreprises h1{
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.entreprises h2{
+    font-size: 22px;
+    line-height: 22px;
+}
+
+.entreprises p{
+    font-size: 19px;
+    line-height: 27px;
+}
+
+
+                            /*4eme section*/
+
+.temoignages{
+    background-color: #FFA000;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.temoignages p{
+    font-family: 'Roboto', sans-serif;
+}
+
+.para-tem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 60%;
+}
+
+.para-tem h2{
+    font-size: 40px;
+    line-height: 40px;
+    margin-top: 80px;
+}
+
+.para-tem p{
+    font-size: 19px;
+    line-height: 27px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.video-tem{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.div-vid1, .div-vid2{
+    width: 45%;
+    height: 400px;
+    margin: 30px;
+}
+
+.video1, .video2{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+                                    /*footer*/
+
+footer{
+    background-color: #313131;
+    color: white;
+}
+
+.gris{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+h3{
+    font-family: 'Roboto', serif;
+    font-size: 20px;
+    line-height: 21px;
+    margin-bottom: -4px;
+}
+
+.part-1{
+    width: 20%;
+    margin-top: 50px;
+}
+
+.logo-ecole img{
+    width: 325px;
+}
+
+.logo-reseaux{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+.part{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-top: 50px;
+}
+
+.part ul{
+    display: flex;
+    flex-direction: column;
+    justify-self: start;
+    align-items: start;
+    justify-content: start;
+    list-style: none;
+    margin-left: -44px;
+    font-size: 18px;
+    line-height: 19px;
+}
+
+.part li{
+    margin: 5px;
+}
+
+.logo-april img{
+    height: 70px;
+}
+
+button{
+    background-color: #313131;
+    border-radius: 5px;
+    border: 2px solid white;
+    color: white;
+    height: 50px;
+    width: 200px;
+    font-size: 22px;
+}
+
+.logo-april{
+    margin: 20px;
+}
+
+.noir{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.texte p{
+    margin-left: 20px;
+}
+
+.logos{
+    margin-top: 17px;
+    margin-right: 15px;
+}
